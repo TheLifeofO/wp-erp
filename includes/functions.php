@@ -3906,3 +3906,15 @@ function erp_get_array_diff( $new_data, $old_data, $is_seriazie = false ) {
     }
 }
 
+if (!function_exists('slugify')) {
+    /**
+     * Change a string to slug
+     */
+    function slugify( $str ) {
+        // replace non letter or digits by _
+        $str = preg_replace( '~[^\pL\d]+~u', '_', $str );
+
+        return strtolower( $str );
+    }
+}
+
