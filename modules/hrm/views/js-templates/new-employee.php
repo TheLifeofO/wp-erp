@@ -10,7 +10,7 @@
                             <img src="{{ data.avatar.url }}" alt="Image">
                             <a href="#" class="erp-remove-photo">&times;</a>
                         <# } else { #>
-                            <img src="<?php echo esc_html( WPERP_ASSETS . '/images/mystery-person.png' ); ?>" alt="">
+                            <img src="<?php echo esc_url( WPERP_ASSETS . '/images/mystery-person.png' ); ?>" alt="">
 
                             <a href="#" id="erp-set-emp-photo" class="button-primary">
                                 <i class="fa fa-cloud-upload"></i>
@@ -162,7 +162,7 @@
 
                     <p class="advanced-fields">
                         <input type="checkbox" id="advanced_fields">
-                        <label for="advanced_fields">Show Advanced Fields</label>
+                        <label for="advanced_fields"><?php esc_html_e( 'Show Advanced Fields', 'erp' ); ?></label>
                     </p>
 
                     <?php if ( current_user_can( 'erp_edit_employee' ) ) { ?>
@@ -380,7 +380,7 @@
                                     'label' => __( 'Date of Birth', 'erp' ),
                                     'name'  => 'work[date_of_birth]',
                                     'value' => '{{ data.work.date_of_birth }}',
-                                    'class' => 'erp-date-field',
+                                    'class' => 'erp-hr-date-field',
                                 ] );
                                 ?>
                             </div>

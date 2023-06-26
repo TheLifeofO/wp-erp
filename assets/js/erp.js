@@ -259,6 +259,10 @@ window.wperp = window.wperp || {};
          * @return {void}
          */
         initialize: function() {
+            $( 'body').on( 'mouseover', '.pro-popup', this.proPopupTooltip );
+            $( 'body').on( 'click', '.pro-popup-main', this.proPopup );
+            $( 'body').on( 'click', '.reports-popup', this.proPopup );
+            $( '.org-chart').on( 'click', '.pro-popup', this.proPopup );
             $( '#postimagediv').on( 'click', '#set-company-thumbnail', this.setCompanyLogo );
             $( '#postimagediv').on( 'click', 'a.remove-logo', this.removeCompanyLogo );
 
@@ -286,9 +290,71 @@ window.wperp = window.wperp || {};
             // Validates custom required checkboxes
             $( "body" ).on( "change", "span.checkbox input[required]", this.validateCheckbox );
 
+            // Danger Zone Input & Confirmation Modal
+            $( '.erp-danger-zone' ).on( 'input', '#erp_reset_confirmation', this.onChangeDangerZoneInput );
+            $( '.erp-danger-zone' ).on( 'click', 'button.tools-btn-submit', this.viewDangerZoneConfirmation );
+
+            $( '.wrap.erp #message button.notice-dismiss' ).on( 'click', this.dismissNoticeMessage );
+
             this.initFields();
         },
 
+        proPopupTooltip: function (e){
+            e.preventDefault();
+            $('.pro-popup').mouseover(function (e) {
+                $('.org-chart').mouseover(function (e) {
+                    $('.erp-custom-menu-container').css('overflow-x', 'inherit')
+                });
+                $('.org-chart').mouseout(function (e) {
+                    $('.erp-custom-menu-container').css('overflow-x', 'auto')
+                });
+                $(".erp-pro-tooltip-wrapper").remove();
+                var tooltip = '<div class="erp-pro-tooltip-wrapper"><div class="erp-pro-tooltip-inner"> ' +
+                    '<h4>Available in Pro. Also enjoy:</h4>' +
+                    '<ul> ' +
+                    '<li><span class="dashicons dashicons-yes"></span>23+ premium extensions</li> ' +
+                    '<li><span class="dashicons dashicons-yes"></span>24/7 customer support</li> ' +
+                    '<li><span class="dashicons dashicons-yes"></span>Recurring task automation</li> ' +
+                    '<li><span class="dashicons dashicons-yes"></span>Work-From-Home feature</li> ' +
+                    '<li><span class="dashicons dashicons-yes"></span>Option to choose extensions</li> ' +
+                    '</ul> ' +
+                    '<div class="tooltip-btn"> ' +
+                    '<a class="tooltip_button" href="#">Upgrade to PRO ' +
+                    '<svg width=\'16\' height=\'13\' viewBox=\'0 0 16 13\' fill=\'none\' xmlns=\'http://www.w3.org/2000/svg\'>\n' +
+                    '<path d=\'M15.3705 3.8954C15.3729 3.93956 15.3697 3.9845 15.3586 4.02914L14.3717 9.18914C14.3219 9.38864 14.1437 9.52892 13.9388 9.53L8.01729 9.56H8.01501H2.09346C1.88746 9.56 1.70796 9.41924 1.6582 9.21872L0.671282 4.04372C0.659918 3.99788 0.656628 3.95168 0.659499 3.90638C0.277712 3.78572 0 3.42734 0 3.005C0 2.4839 0.422579 2.06 0.942056 2.06C1.46153 2.06 1.88411 2.4839 1.88411 3.005C1.88411 3.29846 1.75007 3.56102 1.54019 3.73448L2.77581 4.98332C3.08809 5.29898 3.52144 5.47994 3.96477 5.47994C4.48897 5.47994 4.98877 5.23022 5.30351 4.81184L7.33416 2.1128C7.16357 1.9418 7.05794 1.70552 7.05794 1.445C7.05794 0.9239 7.48052 0.5 8 0.5C8.51948 0.5 8.94206 0.9239 8.94206 1.445C8.94206 1.69772 8.84205 1.9271 8.68037 2.09684L8.68211 2.09894L10.698 4.80542C11.0127 5.22782 11.5143 5.48 12.04 5.48C12.4874 5.48 12.9081 5.30522 13.2244 4.98782L14.4678 3.74054C14.2535 3.56714 14.1159 3.30206 14.1159 3.005C14.1159 2.4839 14.5385 2.06 15.0579 2.06C15.5774 2.06 16 2.4839 16 3.005C16 3.41606 15.7365 3.76568 15.3705 3.8954ZM14.2754 10.97C14.2754 10.7215 14.0746 10.52 13.8268 10.52H2.22307C1.97533 10.52 1.77447 10.7215 1.77447 10.97V12.05C1.77447 12.2985 1.97533 12.5 2.22307 12.5H13.8268C14.0746 12.5 14.2754 12.2985 14.2754 12.05V10.97Z\' fill=\'white\' />\n' +
+                    '</svg>' +
+                    '</a> ' +
+                    '</div> ' +
+                    '</div></div>';
+                $(this).closest('.pro-popup').append(tooltip);
+            });
+            $('.pro-popup').mouseout(function (e) {
+                $(".erp-pro-tooltip-wrapper").remove()
+            })
+        },
+
+        proPopup: function (e){
+            e.preventDefault();
+            $.erpPopup({
+                title: '',
+                button: '',
+                id: 'erp-pro-popup-modal',
+                content: wperp.template('erp-pro-popup-modal'),
+                extraClass: 'larger',
+                footer: false
+            });
+            var count = 2;
+            setInterval(function () {
+                var next = $("#img-" + count);
+                if(count === 4){
+                    count = 1;
+                }else {
+                    count++;
+                }
+
+                next.click()
+            }, 4000)
+        },
         afterNewLocation: function(e, res) {
             wperp.scriptReload( 'erp_hr_script_reload', 'tmpl-erp-new-employee' );
             $('.erp-hr-location-drop-down').append('<option selected="selected" value="'+res.id+'">'+res.title+'</option>');
@@ -300,7 +366,7 @@ window.wperp = window.wperp || {};
                 dateFormat: 'yy-mm-dd',
                 changeMonth: true,
                 changeYear: true,
-                yearRange: '-50:+5',
+                yearRange: '-100:+5',
             });
 
             $( ".erp-date-picker-from" ).datepicker({
@@ -636,6 +702,106 @@ window.wperp = window.wperp || {};
                 }
             }
         },
+
+        /**
+         * Danger Zone Confirmation Popup
+         *
+         * @param object event
+        */
+        viewDangerZoneConfirmation: function( e ) {
+            e.preventDefault();
+
+            var confirmationElement   = $("#erp_reset_confirmation"),
+                toolsSubmitButton     = $('.tools-btn-submit'),
+                toolsLoadingButton    = $('.tools-btn-loading'),
+                toolsErrorMessage     = $(".tools-error-message"),
+                resetConfirmationText = confirmationElement.val(),
+                isValidConfirmation   = ( typeof resetConfirmationText !== 'undefined' ) && ( String( resetConfirmationText ).length !== 0 ) && ( resetConfirmationText === 'Reset' );
+
+            if ( ! isValidConfirmation ) {
+                toolsErrorMessage.html( wpErpDangerZone.confirmResetBeforeContinue );
+                confirmationElement.addClass('tools-error-input');
+            } else {
+                toolsErrorMessage.html('');
+                confirmationElement.removeClass('tools-error-input');
+
+                swal({
+                    title             : wpErpDangerZone.resetErp,
+                    text              : wpErpDangerZone.areYouSureReset,
+                    showCancelButton  : true,
+                    confirmButtonText : wpErpDangerZone.yesResetIt,
+                    confirmButtonColor: "#FF4848",
+                    imageUrl          : wpErpDangerZone.trashIcon
+                },
+                function() {
+                    toolsSubmitButton.addClass('tools-submit-hidden');
+                    toolsLoadingButton.removeClass('tools-submit-hidden');
+
+                    $.ajax({
+                        type    : "POST",
+                        url     : ajaxurl,
+                        dataType: 'json',
+                        data    : $("#danger-zone-form").serialize()
+                    })
+                    .fail(function(xhr) {
+                        swal('', wpErpDangerZone.somethingWrong, 'error');
+                        toolsSubmitButton.removeClass('tools-submit-hidden');
+                        toolsLoadingButton.addClass('tools-submit-hidden');
+                    })
+                    .done(function(response) {
+                        if(response.success) {
+                            toolsSubmitButton.removeClass('tools-submit-hidden');
+                            toolsLoadingButton.addClass('tools-submit-hidden');
+
+                            swal({
+                                title: '',
+                                text : response.data.message,
+                                time : 3000,
+                                type : 'success',
+                                showConfirmButton: false,
+                            });
+
+                            setTimeout(function() {
+                                window.location.href = response.data.redirected_url;
+                            }, 1000);
+                        } else {
+                            toolsSubmitButton.removeClass('tools-submit-hidden');
+                            toolsLoadingButton.addClass('tools-submit-hidden');
+                            swal('', response.data, 'error');
+                        }
+                    });
+                });
+            }
+        },
+
+        /**
+         * On change danger zone input
+         *
+         * @param object event
+         */
+        onChangeDangerZoneInput: function( e ) {
+            var confirmationElement   = $("#erp_reset_confirmation"),
+                resetConfirmationText = confirmationElement.val(),
+                isValidConfirmation   = ( typeof resetConfirmationText !== 'undefined' ) && ( String( resetConfirmationText ).length !== 0 ) && ( resetConfirmationText === 'Reset' );
+
+            if ( isValidConfirmation ) {
+                $(".tools-error-message").html('');
+                confirmationElement.removeClass('tools-error-input');
+                confirmationElement.addClass('tools-success-input');
+            } else {
+                confirmationElement.removeClass('tools-success-input');
+                $(".tools-error-message").html( wpErpDangerZone.confirmResetBeforeContinue );
+                confirmationElement.addClass('tools-error-input');
+            }
+        },
+
+        /**
+         * Close notice message on click on 'x' button
+         */
+         dismissNoticeMessage: function( e ) {
+             e.preventDefault();
+             e.target.closest( 'div' ).remove();
+         }
     };
 
     $(function() {
@@ -828,9 +994,11 @@ jQuery.fn.serializeObject = function() {
     window.addEventListener( 'click', function(e) {
         var dropdownArea             = document.querySelectorAll( '.wperp-filter-dropdown' )[0];
         var select2Container         = document.querySelector( '.select2-container--open' );
+        var dateRangePicker          = document.querySelectorAll( '.daterangepicker' )[0];
         var targetNotContainDropdown = typeof dropdownArea !== 'undefined' && ! dropdownArea.contains( e.target );
+        var clickOnDrPicker          = typeof dateRangePicker !== 'undefined' && dateRangePicker.contains( e.target );
 
-        if ( targetNotContainDropdown && select2Container === null ){
+        if ( targetNotContainDropdown && select2Container === null && ! clickOnDrPicker ){
             document.getElementById( 'erp-dropdown-content' ).classList.remove( 'show' );
         }
     });

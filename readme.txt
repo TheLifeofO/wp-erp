@@ -1,206 +1,253 @@
-=== WP ERP - Complete WordPress Business Manager with HR, CRM & Accounting Systems for Small Businesses ===
+=== WP ERP | Complete HR solution with recruitment & job listings | WooCommerce CRM & Accounting ===
 Contributors: tareq1988, nizamuddinbabu, wedevs
 Donate Link: https://tareq.co/donate
-Tags: business manager, erp, accounting, crm, hr, project manager, small business, SME, contact, contacts, Customer Relationship Management, employee, leave management, hr, human resource management, job, jobs, job listing, lead management, opportunity, schedule, task, lead, holiday, company
-Requires at least: 4.4
-Tested up to: 5.7.1
-Requires PHP: 5.6
-Stable tag: 1.8.4
+Tags:  HR, CRM, Accounting, WooCommerce CRM, Recruitment, Job Listings, Inventory, ERP, Employee management, Leave management, Attendance, Reimbursement, WooCommerce Accounting, Document manager, Custom field builder, CRM integration
+Requires at least: 5.6
+Tested up to: 6.2
+Requires PHP: 7.2
+Stable tag: 1.12.6
 License: GPLv2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-An Open Source Human Resource, CRM & Accounting Solution for WordPress
+WP ERP comes with HR, CRM & Accounting modules. HR helps to manage leaves, attendance, recruitment & job listings. Manage leads, clients, contacts, invoicing, billing & deals with WooCommerce CRM. Its Accounting has WooCommerce integration too.
 
 == Description ==
 
-= Ultimate Company/ Business Management Solution for WordPress =
+= ULTIMATE COMPANY/BUSINESS MANAGEMENT SOLUTION FOR WORDPRESS =
 
-Get a unique interactive experience of managing your business independently with the most reliable information Storage & system of record on WordPress. WP ERP is the first full-fledged ERP (Enterprise Resource Planning) system through which you can simultaneously manage your WordPress site and business from a single platform.
+👉 Official Free Demo Link: [Official Demo of WP ERP](https://wperp.com/demo/)
+👉 Learn More About WP ERP (PRO): [All The Features of WP ERP PRO](https://wperp.com/pro/)
 
-WP ERP's free version has all the important features you need to manage the basics of your business.
+= SUPERCHARGE YOUR GROWING BUSINESS FROM YOUR WORDPRESS DASHBOARD =
 
-WP ERP has 3 core modules: HR, CRM and Accounting, which together make a complete ERP system for any type of business.
+[WP ERP](https://wperp.com/) is the first full-fledged ERP (Enterprise Resource Planning) system through which you can simultaneously manage your WordPress site and business from a single platform.
+
+WP ERP aims to deliver all your enterprise business requirements with simplicity. With real-time reports and a better way to handle business data, make your operation better managed, away from errors, and prepare your company for the next leap.
+
+WP ERP’s core version has all the important features you need to manage the basics of your business.
+
+WP ERP has 3 core modules: HR, CRM, and Accounting, which together make a complete ERP system for any type of business.
 
 The plugin is so beginner-friendly that all you need is a one-click activation to get started!
 
+
 == Core Modules ==
 
-WP ERP Comes with three powerful pre-built core modules –
+WP ERP Comes with **three** powerful pre-built core modules –
 
 * [WordPress HR Management](https://wperp.com/hr/)
 * [WordPress CRM System](https://wperp.com/crm/)
 * [WordPress Accounting System](https://wperp.com/accounting/)
 
-= Other Modules =
+***Other Modules***
 
 * Project Management via [WP Project Manager](https://wordpress.org/plugins/wedevs-project-manager/)
+
+= OUR SPECIALITIES =
+
+* WP ERP core plugin is **free.** You only **pay for components, support, and updates**
+* **Fast** and **Real-time.** Even **faster** with a **personal hosting server**
+* **Ease of access.** Accessible from **any platform** or **device**
+* **Ease of use.** Intuitive and requires almost **no training** for the user
+* **Cloud-based.** Never lose data and keep everyone **synced**
+* **Secure** according to WordPress standards and **your data stays with you**
+* **Lightweight and divided into **Components.** So, companies can **expand** their ERP system in a **step-by-step** process
+* **Industry-specific customizations** are readily available and even easier to modify
+* **No maintenance** is required
+* **Open-source.** **Development** and **customization** become easy
+* **Streamlined** for **Collaboration** and **Teamwork.** Easily **share, track time, and review projects** with co-workers
+* **Privacy** at every level of work
+* Option to use a built-in **WooCommerce CRM**
+* Option to manage **job listings** related works
+* **Best accounting component** on the market
 
 = ♦️General Free features of WP ERP core:♦️ =
 Here are some of the benefits you get for using the pioneer WordPress ERP
 
 * Your own company profile
 * Full control over operations
+* Easy employee management
 * 44+ Currency Support
 * Overview of all modules
-* Notification emails with templates & shortcode
+* Notification emails with templates & short-code
 * Help from support & documentation
 
 = ♦️Free WordPress HR MANAGEMENT directly from your dashboard♦️ =
+
 Create your very own HR system for your company just the way you like!
 
-Free features of [WPERP HR Manager](https://wperp.com/hr/) module:-
+Free features of [WP ERP HR Manager](https://wperp.com/hr/) module:-
 
 * Manage all company information
 * Manage locations
+* Easy employee management system
 * Add & list departments & designations
 * Create employee profiles with editing privilege
 * Share announcements
 * Manage holidays
-* Allow employees to request for leave
-* Manage employee leaves & leave policies
-* Reports based on employee age & gender, head count, salary, year of service.
+* Allow employees to request leave
+* Manage employee leaves, leave policies, and attendance
+* Create Reports based on employee age & gender, headcount, salary, and year of service
 
 = ♦️Free CLIENT MANAGEMENT – KEEP CUSTOMERS ONLINE AT YOUR FINGERTIPS!♦️ =
-With WP ERP CRM module, the process of converting leads to customers is much easier, organized, and seamless.
 
-Free features of [WPERP CRM](https://wperp.com/crm/) module:
+With the WP ERP CRM module, the process of converting leads to customers is much easier, organized, and seamless.
 
-* Contacts with life stages to prioritize service
+Free features of [WP ERP CRM](https://wperp.com/crm/) module:
+
+* Create contacts with life stages to prioritize service
 * Create contact groups
 * Make notes for each customer
-* Activity logs show all dealings.
+* Use Activity logs to see all deals
 * Schedule meetings & calls directly
 * Create company profiles
 * Filter contacts using keywords or attributes
-* Saved search filters & conditions
+* Save search filters & conditions
 * Assign contacts & tasks to the right agents
-* CRM activity report including customers & business growth
+* Create a CRM activity report including customers & business growth
 
 = ♦️Free ACCOUNTING MODULE MADE FOR NON-ACCOUNTANTS♦️ =
+
 This is the perfect accounting module for anyone who is un-initiated with accounting. The simple intuitive interface makes it easy for anyone to get started.
 
-Free features of [WPERP Accounting](https://wperp.com/accounting/) module:
+Free features of [WP ERP Accounting](https://wperp.com/accounting/) module:
 
-* Overview & tracking of income, expenses, receivables, payables, balance etc.
-* Reports like ledger report, trial balance, income statement, sales tax report, balance sheet etc.
-* Set financial year or fiscal year.
-* Set opening balance for all accounts.
-* Closing balance sheet of a financial year.
-* Preloaded ledger accounts for assets, liabilities, expenses, income, etc.
-* Add custom ledger accounts or bank accounts according to your needs.
-* Manage sales using invoices.
-* Create quotations for estimation.
-* Receive payments from customers.
-* Create bill for any customer, vendor, or employee
+* Get a dashboard to track all incomes, expenses, receivables, payables, balances, etc
+* Get various reports like ledger reports, trial balances, income statements, sales tax reports, balance sheets, etc
+* Set a financial year or fiscal year
+* Set opening balance for all accounts
+* Create a closing balance sheet for a financial year
+* Get preloaded ledger accounts for assets, liabilities, expenses, income, etc
+* Add custom ledger accounts or bank accounts according to your needs
+* Manage sales using invoices
+* Create quotations for estimation
+* Receive payments from customers
+* Create a bill for any customer, vendor, or employee
 * Pay bills against any bill
-* Make direct expense or issue a check.
-* Purchase products or services
-* Make payments to vendors.
-* Create products/product categories.
-* Create unlimited users like vendors, customers etc.
-* Partial payments for any transactions.
-* Create unlimited bank accounts, manage, view economics in graph.
-* Journal entry for any transaction.
-* Create tax rates, tax agencies, tax zones & tax categories for invoices.
+* Make direct expenses or issue a check
+* Get a Purchase report of products/services
+* Make payments to vendors
+* Create products/product categories
+* Create unlimited users like vendors, customers, etc
+* Partial payments for any transactions
+* Create unlimited bank accounts, manage, and view economics in a graph
+* Produce journal entries for any transaction
+* Create tax rates, tax agencies, tax zones & tax categories for invoices
 * Pay tax to agencies
 * Send pdf copy of all transactions via email
 * Filter reports by date range
 * Print all transactions or reports
 
 Getting Started with WP ERP is only a matter of moments.
-Check out the detailed [documentation](https://wperp.com/documentation/) created by us to help you out to run WP ERP in the best way.
 
-== ♦ WP ERP Pro - Premium extensions & features ♦ ==
-Automate & Manage your growing business even better using Human Resource, Customer Relations, Accounts Management right inside your WordPress
+Check out the detailed [documentation](https://wperp.com/documentation/) created by us to help you to run WP ERP in the best way.
+
+== ♦ WP ERP PRO – PREMIUM EXTENSIONS & FEATURES ♦ ==
+
+Automate & Manage your growing business even better using Human Resources, Customer Relations, and Accounts Management right inside your WordPress
 
 = Why WP ERP Pro =
+
 Build a modern, convenient and reliable business management system for your company
 
 * Gain access to nine powerful extensions and different features with a single purchase
 * Add only those individual extensions which suit your business
-* Priority support system
+* Get priority support from our support team
 * Save money: User-based Pricing
 * Easy & simple to upgrade or downgrade
+* Get powerful CRM integrations including a WooCommerce CRM
+* Take advantage of advanced leave management
+* Manage WooCommerce store’s finance better with a powerful WooCommerce Accounting system
+
 
 = What you will get =
+
 Take your business to the next level with 9 accessible premium extensions & different features
 
-* **[Advanced Leave Management](https://wperp.com/downloads/advanced-leave-management/)**: Create and manage multiple types of leave across your organisation.
-* **[WP ERP HR Frontend](https://wperp.com/downloads/hr-frontend/)**: Bring the powerful HR Module of WP ERP to your web front using this handy extension. Let staff check-in, check-out, and even take leaves from the web-front.
-* **[Awesome Support Sync](https://wperp.com/downloads/awesome-support-sync/)**: Using Awesome Support to provide support to your customers? Easily bring them to your CRM so you get full relationship management features!
+* **[Advanced Leave Management](https://wperp.com/downloads/advanced-leave-management/)**: Create and manage multiple types of leave across your organization. Take leave management to a new level!
+* **[WP ERP HR Frontend](https://wperp.com/downloads/hr-frontend/)**: Bring the powerful HR Module of WP ERP to your web front using this handy extension. Let staff check in, check out, and even take leaves from the web front.
+* **[Awesome Support Sync](https://wperp.com/downloads/awesome-support-sync/)**: Using Awesome Support to support your customers? Easily bring them to your CRM with WP ERP’s CRM integration, so you get full relationship management features!
 * **[Gravity Forms Sync](https://wperp.com/downloads/crm-gravity-forms/)**: Create users in the CRM module automatically with the data you receive on a form created by Gravity Forms.
 * **[Help Scout Integration](https://wperp.com/downloads/help-scout-integration/)**: Sync Help Scout contacts with your CRM & view your CRM contact data on Help Scout with this two-way integration!
-* **[Mailchimp Contacts Sync](https://wperp.com/downloads/mailchimp-contacts-sync/):** Import and Sync all your MailChimp mailing lists into WP-ERP CRM system and vice versa.
-* **[Salesforce Contacts Sync](https://wperp.com/downloads/salesforce-contact-sync/)**: Import and Sync all your SalesForce mailing lists into WP-ERP CRM system and vice versa.
-* **[Hubspot Contacts Sync](https://wperp.com/downloads/hubspot-contacts-sync/)**: Import and Sync all your Hubspot contacts into WP-ERP CRM system and vice versa.
-* **[Zendesk Integration](https://wperp.com/downloads/zendesk-integration/)**: Increase CRM contacts, lead and customers by integrating Zendesk ticket support system and respond to clients faster.
+* **[Mailchimp Contacts Sync](https://wperp.com/downloads/mailchimp-contacts-sync/):** Import and Sync all your MailChimp mailing lists into the WP ERP CRM system and vice versa.
+* **[Salesforce Contacts Sync](https://wperp.com/downloads/salesforce-contact-sync/)**: Import and Sync all your SalesForce mailing lists into the WP ERP CRM system with its effective CRM integration.
+* **[Hubspot Contacts Sync](https://wperp.com/downloads/hubspot-contacts-sync/)**: Import and Sync all your Hubspot contacts into the WP ERP CRM system and vice versa.
+* **[Zendesk Integration](https://wperp.com/downloads/zendesk-integration/)**: Increase CRM contacts, leads, and customers by integrating the Zendesk ticket support system to WP ERP’S CRM integration and responding to clients faster.
+
 
 = Choose other premium extensions that match your business =
 
-* **[Payment Gateway](https://wperp.com/downloads/payment-gateway/)**: This feature extension allows you to take payments from most popular payment gateways- PayPal and Stripe.
-* **[Recruitment](https://wperp.com/downloads/recruitment/)**: This is a Job Manager and complete Job Vacancy, Resume and Employment Manager. You can directly create, publish and manage your recruitment from your WordPress powered company website, as well as manage candidates.
-* **[Attendance](https://wperp.com/downloads/attendance/)**: Track work hours of your employees and balance them with their leaves with this feature extension.
+* **[Payment Gateway](https://wperp.com/downloads/payment-gateway/)**: This feature extension allows you to take payments from the most popular payment gateways - PayPal and Stripe.
+* **[Recruitment](https://wperp.com/downloads/recruitment/)**: This is a Job Manager and complete Job Vacancy, Resume, and Employment Manager. You can directly create, publish and manage your recruitment from your WordPress-powered company website and manage the whole job listings.
+* **[Attendance](https://wperp.com/downloads/attendance/)**: Manage attendance digitally and easily with WP ERP. Track the work hours of your employees and balance them with their leaves with this feature extension.
 * **[Training](https://wperp.com/downloads/training/)**: Monitor training programs for different teams & employees.
-* **[WoCommerce Integration](https://wperp.com/downloads/woocommerce-crm/)**: Sync your WooCommerce order details and customer data with WP ERP and allow your CRM agent to track your sales.
-* **[Custom Field Builder](https://wperp.com/downloads/custom-field-builder/)**: Add more fields to your ERP forms.
-* **[Payroll](https://wperp.com/downloads/payroll/)**: Manage your employee salaries more easily and automate the payment system with this amazing extension of WP ERP
-* **[Deals](https://wperp.com/downloads/deals/)**: Deals is a great tool to manage and guide your CRM agents on a faster and organized sales process.
-* **[Workflow](https://wperp.com/downloads/workflow/)**: Automate actions in your ERP system with this advanced extension. Save time and reduce the margin of error.
-* **[Reimbursement](https://wperp.com/downloads/reimbursement/)**: Manage your employee expenses and complete payments in an easy and effective way using ERP Reimbursement.
-* **[Document Manager](https://wperp.com/downloads/document-manager/)**: Store and access your company and employee documents on-site.
-* **[Inventory](https://wperp.com/downloads/inventory/)**: Stock management for your products within your accounting software.
-* **[Asset Manager](https://wperp.com/downloads/asset-manager/)**: Create your company assets virtually, assign them to employees and keep track of all your company assets in one place.
+* **[WoCommerce Integration](https://wperp.com/downloads/woocommerce-crm/)**: Sync your WooCommerce order details and customer data with WP ERP’s efficient WooCommerce CRM and WooCommerce accounting to allow your assigned agent to track your sales.
+* **[Custom Field Builder](https://wperp.com/downloads/custom-field-builder/)**: Add more fields to your ERP forms with custom field builder for collecting extra information about your employees or customers.
+* **[Payroll](https://wperp.com/downloads/payroll/)**: Manage your employee salaries more efficiently and automate the payment system with this amazing extension of WP ERP.
+* **[Deals](https://wperp.com/downloads/deals/)**: Deals is a great tool to manage and guide your CRM agents on a faster and more organized sales process.
+* **[Workflow](https://wperp.com/downloads/workflow/)**: Automate actions in your ERP system with this advanced extension. Save time and reduce the margin of error. This workflow can be used from job listings to WooCommerce CRM, the entire part of WP ERP.
+* **[Reimbursement](https://wperp.com/downloads/reimbursement/)**: Manage your employee expenses and complete payments easily and effectively using ERP Reimbursement.
+* **[Document Manager](https://wperp.com/downloads/document-manager/)**: Store and access your company and employee documents on-site with WP ERP’s powerful document manager.
+* **[Inventory](https://wperp.com/downloads/inventory/)**: Managing your inventory for your products within your accounting software can be done with WooCommerce accounting.
+* **[Asset Manager](https://wperp.com/downloads/asset-manager/)**: Create your company assets virtually, assign them to employees and keep track of all your company assets in one place. Making your employee management and asset management easy with one extension.
 
-= Some of our resources on WP ERP: =
-👉 [WP ERP v1.4 Brings a Critical Revamp to the Entire User Interface](https://wperp.com/22918/wp-erp-1-4-new-user-interface-and-menu/)
+
+= WHAT OTHERS HAVE TO SAY ABOUT WP ERP: =
+
+👉 [Businesses Using ERP Solution: Success Stories That You Can’t Afford to Miss Out](https://wperp.com/57388/successful-businesses-using-erp-solution-success-stories/)
 👉 [WP ERP Wins Two Prestigious ERP Software Awards From FinancesOnline](https://wperp.com/23904/wp-erp-wins-two-prestigious-erp-software-awards/)
-👉 [All-in-One Business Manager for your WordPress Site](https://wperp.com/13778/business-manager-for-wordpress/)
+👉 [WP ERP: Journey of Bringing Revolutionary Changes in the WordPress Industry to Becoming the No.1 ERP Solution](https://wperp.com/71484/wp-erp-journey-in-wordpress-community-to-no-1-erp-solution/)
+
+**[View More Blogs](https://wperp.com/blog/)** ⏩
+
+= SOME OF OUR RESOURCES ON WP ERP: =
+
+👉 [Introducing WP ERP Pro: Get User-Based Pricing & Manage Your Business Like An Expert](https://wperp.com/78709/wp-erp-pro-pricing-get-user-based-pricing/)
+👉 [How to Translate WordPress ERP to Your Favorite Languages Easily](https://wperp.com/65662/how-to-translate-wordpress-erp-to-your-favorite-languages-easily/)
+👉 [How to Install WP ERP on Your WordPress Site (with Configurations)](https://wperp.com/62945/how-to-install-wperp-on-wordpress-easy-guide/)
 👉 [A Beginner’s Guide to Implement ERP System on WordPress (Free)](https://wperp.com/13483/free-erp-system-wordpress/)
-👉 [View More Blogs](https://wperp.com/blog/)
 
-= What others have to say about WP ERP: =
-👉 [Top 12 WordPress CRM Plugins to Supercharge Your Business](https://kinsta.com/blog/wordpress-crm/)
-👉 [WORDPRESS PLUGINS FOR HR & EMPLOYEE MANAGEMENT](https://wpengine.com/resources/wordpress-employee-management-plugins/)
-👉 [7 Best WordPress CRM Plugins to Boost Your Online Business in 2018](https://themegrill.com/blog/wordpress-crm-plugins/)
-👉 [Top 100 ERP Blogs and Websites for Enterprise Resource Planning Professionals](https://blog.feedspot.com/erp_blogs/)
-
-= Visit our website to learn more =
-➡️ [WPERP, Inc. HR CRM Accounting](https://wperp.com/)⬅️
+*** VISIT OUR WEBSITE TO LEARN MORE ***
+➡️ [WP ERP, Inc.](https://wperp.com/) ⬅️
 
 = Privacy Policy =
-WP ERP uses [Appsero](https://appsero.com) SDK to collect some telemetry data upon user's confirmation. This helps us to troubleshoot problems faster & make product improvements.
 
-Appsero SDK **does not gather any data by default.** The SDK only starts gathering basic telemetry data **when a user allows it via the admin notice**. We collect the data to ensure great user experience for all our users.
+WP ERP uses [Appsero](https://appsero.com) SDK to collect some telemetry data upon the user's confirmation. This helps us to troubleshoot problems faster & make product improvements.
+
+Appsero SDK **does not gather any data by default.** The SDK only starts gathering basic telemetry data **when a user allows it via the admin notice**. We collect the data to ensure a great user experience for all our users.
 
 Integrating Appsero SDK **DOES NOT IMMEDIATELY** start gathering data, **without confirmation from users in any case.**
 
+All the promotional data for marketing are fetched through REST API from the official website of [WP ERP](https://wperp.com/)
+
+
 = Contribute =
-This may have bugs and lack of many features. If you want to contribute on this project, you are more than welcome. Please fork the repository from [Github](https://github.com/wp-erp/wp-erp).
+This may have bugs and lack many features. If you want to contribute to this project, you are more than welcome. Please fork the repository from [Github](https://github.com/wp-erp/wp-erp).
 
 == Installation ==
-###Automatic Install From WordPress Dashboard
+### Automatic Install From WordPress Dashboard
 
-1. Login to your the admin panel
+1. Login to your WordPress Dashboard
 2. Navigate to Plugins -> Add New
 3. Search **WP ERP**
-4. Click install and activate respectively.
+4. Click install and activate and follow instructions
 
-###Manual Install From WordPress Dashboard
+### Manual Install From WordPress Dashboard
 
 If your server is not connected to the Internet, then you can use this method-
 
-1. Download the plugin by clicking on the red button above. A ZIP file will be downloaded.
-2. Login to your site’s admin panel and navigate to Plugins -> Add New -> Upload.
+1. Download the plugin by clicking on the red button above. A ZIP file will be downloaded
+2. Login to your site’s admin panel and navigate to Plugins -> Add New -> Upload
 3. Click choose file, select the plugin file and click install
 
-###Install Using FTP
+### Install Using FTP
 
 If you are unable to use any of the methods due to internet connectivity and file permission issues, then you can use this method-
 
-1. Download the plugin by clicking on the red button above.A ZIP file will be downloaded.
-2. Unzip the file.
-3. Launch your favourite FTP client. Such as FileZilla, FireFTP, CyberDuck etc. If you are a more advanced user, then you can use SSH too.
+1. Download the plugin by clicking on the red button above. A ZIP file will be downloaded
+2. Unzip the file
+3. Launch your favorite FTP client. Such as FileZilla, FireFTP, CyberDuck etc. If you are a more advanced user, then you can use SSH too
 4. Upload the folder to wp-content/plugins/
 5. Log in to your WordPress dashboard.
 6. Navigate to Plugins -> Installed
@@ -209,76 +256,304 @@ If you are unable to use any of the methods due to internet connectivity and fil
 == Screenshots ==
 
 1. Plugin on-boarding
-2. HR Dashboard
-3. Employee Listing
-4. Creating a new employee
-5. Employee details page.
-6. Employee profile job tab, keep track of every salary increment, status changes and department/location changes.
-7. See the leave history and balances.
-8. Analyse employee performance by rating in various metrics
-9. Manage permissions and who can do what.
-10. Departments management
-11. Designation management
-12. View detailed reports on your HR
-13. Leave policies for your company
-14. Manage leave requests from your employees.
-15. CRM dashboard
-16. Contacts list
-17. Contact details page, log calls, meetings, tasks and schedule everything from a single page.
-18. Search your contacts with an advanced search area, everything and save those searches.
-19. Filter contacts with saved searches.
-20. All the activities across your contacts and companies in a single page and filterable.
-21. Schedules page, see whom to call, have a meeting and manage them.
-22. Manage your company details, add locations if you have multiple branches/locations.
-23. We log everything whats happening across the system and log everything for easy audit logging.
-24. Accounting Dashboard
-25. Sales transactions list
-26. Expense transactions list
-27. Creating new invoice (sales)
-28. Creating a basic journal entry.
-29. Bank Accounts
-30. Chart of accounts listing
+2. Dashboard Overview- Your business overview is here
+3. Available modules and extensions that can make your growth with ease
+4. Your Company Details are here
+5. HR Dashboard- Overviewing all over your Human Resource Management
+6. Overall Company Employee list
+7. Just a single form to create/board an Employee
+8. Here is what an Employee profile looks like and to manage
+9. HR Report
+10. CRM Dashboard- Reflects your overall CRM status
+11. CRM Contact list
+12. CRM Company List
+13. CRM Contact Profile- where you can manage and interact with the contact/lead
+14. Contacts that subscribed to your list
+15. Accounting Dashboard- Your overall sales, income, expenses status
+16. Product and services- that you sell or your business is about to
+17. Sales Transactions
+18. Journal Entry
+19. A complete VAT-TAX management
+20. Trial Balance
+21. Accounting Reports
+22. Audit Log- Reflects the overall operations of your business
 
 == Frequently Asked Questions ==
 
-= Can I use only one module (like- only HRM or CRM or Accounting)? =
-Yes, you definitely can! The whole plugin is divided into three parts- HR, CRM, Accounting based on features and the source code is separated for each module. So you can turn on/off any module you like from- “ERP Settings -> Modules.”
+= How much does WP ERP cost? =
+WP ERP is completely free of cost, you can download and install the plugin right from your WordPress dashboard just like any other WordPress plugin.
 
-= Can I Translate WP ERP? =
-Yes, the plugin is fully translation ready. You can [translate the plugin](https://translate.wordpress.org/projects/wp-plugins/erp) if your language is missing.
+= Can I use only one module? =
+Yes, you definitely can! The whole plugin is divided into three parts- HR, CRM, and Accounting based on features and the source code are separate for each module. So you can turn on or off any module you like from the settings.
 
-= Do you have any video tutorial on WP ERP? =
-Yes, we have some helpful videos on our [youtube channel](https://www.youtube.com/channel/UC7PaXj-qWPOM378L11QJyIQ).
+= Can I customize the plugin? =
+Absolutely! WP ERP and all its extensions are open-source and the source files are well-documented. So you can customize any feature you want. Our support service is always there to help you with information to get you started.
 
-= How can I suggest for new features? =
-We would love to hear your suggestions! Feel free to [submit them here](https://wperp.com/submit-ideas/).
+= Do you provide customization support? =
+Currently, we do not offer customization support. However, you can post your requirements on specialized and diverse marketplaces like Upwork, Freelancer, PeoplePerHour, etc.
+We are always here to help you with more information to get started.
 
-= Can I bulk import employees, contacts etc? =
-Yes, you can import employees, contacts via CSV file by just navigating to-
-“ERP Settings -> Tools -> Import”
+= Is WP ERP Multi-Site Compatible? =
+You can use one ERP installation on 1 database. That means one WordPress installation can have only one ERP activation. You can install and activate the plugin on a single sub-site of a network installation. But WP ERP can not be used across multiple sub-sites of a network installation.
+
+= How can I translate WP ERP? =
+You can easily translate WP ERP (and its extensions) by following some simple steps. You’ll find the [guideline here.](https://wperp.com/docs/erp-core/how-to-translate-wp-erp-plugin/...
+
+= Do you have any video tutorials on WP ERP? =
+Yes, we have some helpful videos on our [YouTube](https://www.youtube.com/channel/UC7PaXj-qWPOM378L11QJyIQ) channel.
 
 = Can I use WP ERP from the front end? =
-You can use HR module from the frontend by using “HR Frontend” extension. The CRM & Accounting module does not have a frontend right now.
+You can use the HR module from the frontend now by using the [“HR Frontend”](https://wperp.com/downloads/hr-frontend/) extension. The CRM & Accounting module does not have a frontend right now.
 
-= Is WP ERP capable to handle attendance? =
-Yes! We have an extension- Attendance that has the check-in, check-out feature along with attendance report generator and much more.
+= How can I get continuous support and updates after one year? =
+To get continuous support and updates on our products you just need to renew the license.
 
-= Is WP ERP capable to handle a huge amount of data? =
-Yes, of course! Many of our clients are using WP ERP to manage their business with 3000+ employees,2000+ customers/contacts without any hassle.
+= How can I suggest new features? =
+We would love to hear your suggestions! Feel free to [submit your suggestions here](https://wperp.com/roadmap/)
+You can also suggest new features through your My Account dashboard if you are already registered with WP ERP. Simply generate a new support ticket under the Plugins form. Choose the plugin you want to query about and under Query type select Feature Suggestion. Then type the kind of new feature you would like to see under Description.
 
-= What are your support timings? =
-Our general live support hours are Saturday to Thursday, 07:00 to 15:00 (GMT +6).
+= What are our support timings? =
+Our general live support hours are-
+24 hours of support (Monday to Friday)
+Off day/Weekend (Saturday & Sunday)
 
-= What is the average response time in your support thread? =
-We strive to respond all queries within 12 hours. Our response time may be just 1 hour if you reach us in our working hours!
-
-It may take longer to respond to more advanced or technical queries. We promise to serve and support you in the best way possible, which can sometimes take time, but you will be assured the best service.
-
-= Does WP ERP support WordPress multisite installation? =
-No, WP ERP and its add-ons do not support multisite WordPress installation.
+= What is the average response time in the support thread? =
+We strive to respond to all queries within 12 hours. Our response time may be just 1 hour if you reach us during our working hours!
+It may take longer to respond to more advanced or technical queries. We promise to serve and support you in the best way possible, which can sometimes take time, but you will be assured of the best service.
 
 
 == Changelog ==
+
+= v1.12.6 -> Jun 07, 2023 =
+--------------------------
+* 🔥 [NEW] Added create Invoice Button to WP ERP Sidebar Menu.
+    * A new invoice button is added in the main admin sidebar.
+* 🔥 [NEW] Added additional Notes input to the invoice.
+    * Now when a user creates a new invoice, they can add additional texts.
+
+= v1.12.5 -> Jun 07, 2023 =
+--------------------------
+* 🛠️ [FIX] If email setup in WP ERP is not done, then sent mail using default WP.
+* 🛠️ [FIX] Redirects on the purchased extensions while activating/deactivating on the module page.
+
+= v1.12.4 -> May 26, 2023 =
+--------------------------
+* 🐛 [FIX] SQL injection and HTML vulnerability.
+
+= v1.12.3 -> May 17, 2023 =
+--------------------------
+* [Enhancement] Added the year in the leave request list table.
+* [FIX] Fatal error on HR > Leave - Holidays.
+* [FIX] Leave date mismatch on the "Leave Request" page.
+* [FIX] Handled log error on CRM Contact and/or Company.
+* [FIX] Handled php notice in Mailchimp Configuration.
+* [FIX] Handle log error on accounting module’s vendor creation.
+
+= v1.12.2 -> May 05, 2023 =
+--------------------------
+* [FIX] - CRM contacts are not imported in accounting module.
+* [FIX] - Invoice format gets distorted.
+* [FIX] - ERP Help button displaying error.
+
+= v1.12.1 -> February 15, 2023 =
+--------------------------
+* [FIX] - Contacts are not importing properly.
+* [FIX] - Fixed unformatted strings for translation.
+* [ENHANCEMENT] - Filter value gets removed when going to next page on Leave Report.
+
+= v1.12.0 -> January 12, 2023 =
+--------------------------
+
+- [Feature] - Implement Advanced Filtering & Live Search on Leave Request.
+- [Feature] - Upgrade prompts design revamp.
+- [Update] - Update project in composer version 2.
+- [Enhancement] - Update Appsero SDK
+- [Enhancement] - Bug fix and reliability improvements across all ERP core
+
+= v1.11.3 -> October 13, 2022 =
+--------------------------
+
+- [fix] Fatal error due to some version incompatibility
+
+= v1.11.2 -> October 13, 2022 =
+--------------------------
+
+- [fix] Error while creating holiday. (HRM)
+- [fix] Pay rate validation inconsistencies in some cases. (HRM)
+- [fix] Year range of datepicker was limited to 50 years. It has been changed as needed. (CRM)
+- [fix] Contact activities were not being loaded when the user is both crm manager and agent. (CRM)
+
+= v1.11.1 -> August 26, 2022 =
+--------------------------
+
+- [update] Optimized holiday importing process in favor of large number of data (HRM)
+- [fix] Bulk delete was not working for Holidays (HRM)
+- [fix] Life stages, names of that are formed with non-English strings, were not supported while importing contacts from Users (CRM)
+- [fix] Text formats were not persisting while creating different activities for any contact/company (CRM)
+- [fix] Some caching issues to avoid data inconsistency
+
+= v1.11.0 -> June 15, 2022 =
+--------------------------
+
+- [update] Some package compatibilities
+- [update] Support for fractional quantity during transactions (Accounting)
+- [fix] All people were not being loaded in filter dropdown for transaction (Accounting)
+- [fix] Download link of sample csv for customer and vendor was not working (Accounting)
+- [fix] Inbound email using IMAP was not working (CRM)
+- [fix] Gravity form integration was not working properly (CRM)
+- [fix] Contact list table UI was breaking in some cases (CRM)
+- [fix] Timezone inconsistencies for contact related operations (CRM)
+- [fix] Some contact integration related issues (CRM)
+- [fix] Non alphanumeric slug was causing issue for life stages (CRM)
+- [fix] Retrieving people was throwing error when CRM module was deactivated
+- [fix] Resetting ERP was removing admin access in some cases
+
+= v1.10.6 -> May 24, 2022 =
+--------------------------
+
+- [update] Enhanced securities to avoid vulnerabilities
+- [fix] Sanitization, escaping, permission and data validation all over the plugin
+- [fix] Fixed missing translation issues
+
+= v1.10.5 -> March 15, 2022 =
+--------------------------
+
+- [notice] Limited time promotional offer on WeDevs' anniversary
+
+= v1.10.4 -> December 29, 2021 =
+--------------------------
+
+- [fix] Data synchronization and compatibility issues with PDF invoice plugin
+- [fix] Pagination was not working correctly in Employee list table
+
+= v1.10.3 -> December 24, 2021 =
+--------------------------
+
+- [update] Functionality to import Accounting customers and vendors as CRM contacts
+- [update] Restrict access of CRM agents to their own contacts only while importing/exporting csv
+- [fix] CRM agent's top navigation bar status count was showing wrong
+- [fix] CRM manager can't access all contacts if CRM Agent adds or lists contacts first after a cache invalidation
+- [fix] CRM contacts settings were not being saved and parsed properly
+- [fix] CRM contact form settings were throwing error when no contact form is available
+- [fix] Email templates settings were generating error when CRM module was not active
+- [fix] Compatibility issues of some hooks
+- [fix] Compatibility issue with PDF Invoice plugin
+- [notice] Limited time promotional offer on holiday sale
+
+= v1.10.2 -> November 16, 2021 =
+--------------------------
+
+- [new] Option to assign relevant leave policies to employees after employment type is changed
+- [update] ERP addon page backend optimization
+- [update] Attachment download links are included in single invoice view and in downloadable invoice
+- [fix] CRM Growth report labels were not translatable
+- [fix] Contact group subscriber bulk delete was not working
+- [fix] Page responsive issues on whole Accounting module
+- [fix] Action trigger and action dropdown issues on small screen
+- [notice] Promotional offer notice regarding Black Friday and Cyber Monday
+
+= v1.10.1 -> October 12, 2021 =
+--------------------------
+
+- [notice] Promotional offer notice on account of Halloween
+- [update] Some dependency package version updated to maintain compatibility
+- [update] CRM Agent will not be able to import Users as CRM contacts
+- [update] CRM Agent will not be able to import contact/company from CSV
+- [update] CRM Agent will not be able to export contact/company to CSV
+- [fix] Note section in contact/company single page was not working while adding a note for the first time
+- [fix] Department parent sorting was generating some redundant data
+
+= v1.10.0 -> August 17, 2021 =
+--------------------------
+
+- [new] Agency wise sales tax report
+- [new] Transaction wise sales tax report
+- [new] Category wise sales tax report
+- [new] Customer wise sales tax report
+- [update] Employee list table design in Accounting people
+- [update] Deactivating a module will deactivate its associated extensions
+- [update] License page redesign in the settings for separate extension
+- [update] UX for leave type actions for better usability
+- [update] Meta postbox design of employee single page
+- [update] Task description and link in email while sending email notifications for new task
+- ​​[update] Redesign of email connectivity settings page
+- [update] Mailgun email service for outgoing email
+- [update] Email template settings has been moved from CRM to Email section globally
+- [update] Support for dynamic side menu list hiding option inside Tools
+- [update] Some more admin toolbar options to hide in Tools
+- [update] Announcements list table has been integrated under people menu of HR
+- [update] Announcements filtering based on date range
+- [fix] Termination widget was not showing in terminated employees’ single page
+- [fix] Tax category was not inserting properly while adding or updating products
+- [fix] Tax agency was not inserting properly while creating or updating purchase transaction
+- [fix] Some backend issues to avoid any transaction issues in Accounting
+- [fix] Audit log filtering dropdown was not working
+- [fix] Activities filtering was not working properly in CRM
+- [fix] Some validations were generating inconsistency for employees' old data export/import
+- [fix] Leave policy delete option was not working properly
+- [fix] Leave type bulk delete was not working
+- [fix] Mobile responsiveness for requests table in HRM
+- [fix] employee permanent delete was not working
+- [fix] SMTP test email was not working properly
+- [fix] IMap enable/disable option was not working properly
+- [fix] Some backend optimizations all over the plugin
+- [fix] Some texts were not translatable
+
+= v1.9.0 -> July 15, 2021 =
+--------------------------
+
+- [notice] Limited time summer sale promotional offer
+- [new] A new tab titled ‘Danger Zone’ inside Tools
+- [new] WP ERP database can be reset and installed newly from Danger Zone
+- [new] Accounting Quick tour to demonstrate accounting module at a glance
+- [new] Import from CSV option for products in Accounting
+- [new] Export to CSV option for products in Accounting
+- [update] A brand new look all over the settings. The usability will be smoother and more comfortable with this new UI/UX
+- [update] Search option in products list table page
+- [update] Current history of employment type, compensation, and job info will be able to be edited
+- [update] In the employee list table, instead of 'Status' a new column will show the status update date for non active status filters
+- [update] Some optimization to make the performance better
+- [fix] Existing data were not parsing properly while updating job related information of employees
+- [fix] Current job history in the employee section was not showing properly in some cases
+- [fix] Mobile responsive issue in Contacts list table
+- [fix] Mobile responsive issue in Company list table
+
+= v1.8.6 -> June 30, 2021 =
+--------------------------
+
+- [update] Included all new features' info in the ERP Pro add-ons page
+- [update] Optimized some backend technicalities
+
+= v1.8.5 -> June 08, 2021 =
+--------------------------
+
+- [new] While adding people in Accounting with an email that exists in CRM, the people can be updated and imported from CRM directly at that moment
+- [new] New Request submenu under HRM People
+- [new] Real-time bubble to show pending request count in Requests
+- [new] Import csv options in Employee, Contact, Company, Vendor, and Customer list table page individually
+- [new] Export csv options in Employee, Contact, Company, Vendor, and Customer list table page individually
+- [new] Import users as contacts option in Contact list table page
+- [update] Styles upgrade for filter dropdown
+- [update] Optimized some library scripts and stylesheets
+- [update] Removed import/export tabs from Tools
+- [update] Some backend optimization in Accounting
+- [update] Filtering use case of dropdown has been improved in leave entitlement form
+- [update] Responsive design in modules and extension page
+- [update] Optimized extension icons to make the page more smooth and lightweight
+- [update] Filter dropdown buttons design upgrade
+- [fix] Employee address was unable to update
+- [fix] Adding new customer/vendor with an email that exist in CRM was showing error
+- [fix] All transaction payment chart was not showing amounts correctly
+- [fix] Some incompatible API response issues on products and customers in accounting
+- [fix] Country and state was getting reset each time a customer is updated in accounting
+- [fix] Customer and vendor address was not showing correctly on frontend
+- [fix] Outside click event for transaction filter was generating error
+- [fix] Department dropdown was not showing all departments in some cases
+- [fix] JSON datatype issue in employee education table
+- [fix] Error regarding gmail api connection with CRM when google auth api returns error
+- [fix] Accounting manager permission checkbox option was not showing in employee permissions tab
+- [fix] Leave policy list page was showing empty after updating a policy
+- [fix] Some undefined index notice issues all over the plugin
 
 = v1.8.4 -> May 07, 2021 =
 --------------------------

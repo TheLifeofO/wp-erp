@@ -1,13 +1,15 @@
 <div class="wrap erp erp-hr-designation">
     <h2>
-        <?php esc_html_e( 'People', 'erp' ); ?>
+        <?php esc_html_e( 'People > Designations', 'erp' ); ?>
         <a href="#" id="erp-new-designation" data-single="1" class="add-new-h2"><?php esc_html_e( 'Add New', 'erp' ); ?></a>
     </h2>
 
     <?php if ( isset( $_GET['desig_delete'] ) ) { ?>
         <div id="message" class="error notice is-dismissible below-h2">
             <p><?php esc_html_e( 'Some designation doesn\'t delete because those designation assign some employees.', 'erp' ); ?></p>
-            <button type="button" class="notice-dismiss"><span class="screen-reader-text">Dismiss this notice.</span></button>
+            <button type="button" class="notice-dismiss">
+                <span class="screen-reader-text"><?php esc_html_e( 'Dismiss this notice.', 'erp' ); ?></span>
+            </button>
         </div>
     <?php } ?>
 
@@ -22,7 +24,7 @@
                 <input type="hidden" name="section" value="people">
                 <input type="hidden" name="sub-section" value="designation">
                 <?php
-                $designation = new \WeDevs\ERP\HRM\Designation_List_Table();
+                $designation = new \WeDevs\ERP\HRM\DesignationListTable();
                 $designation->prepare_items();
                 $designation->views();
                 $designation->display();

@@ -1,7 +1,7 @@
 <div class="wrap erp-hr-depts">
 
     <h2>
-        <?php esc_html_e( 'People', 'erp' ); ?>
+        <?php esc_html_e( 'People > Departments', 'erp' ); ?>
         <a href="#" id="erp-new-dept" class="add-new-h2" data-single="1"><?php esc_html_e( 'Add New', 'erp' ); ?></a>
 
         <form method="get">
@@ -13,7 +13,9 @@
     <?php if ( isset( $_GET['department_delete'] ) ) { ?>
         <div id="message" class="error notice is-dismissible below-h2">
             <p><?php esc_html_e( 'Some department doesn\'t delete because some employees work under those department', 'erp' ); ?></p>
-            <button type="button" class="notice-dismiss"><span class="screen-reader-text">Dismiss this notice.</span></button>
+            <button type="button" class="notice-dismiss">
+                <span class="screen-reader-text"><?php esc_html_e( 'Dismiss this notice.', 'erp' ); ?></span>
+            </button>
         </div>
     <?php } ?>
 
@@ -28,7 +30,7 @@
                 <input type="hidden" name="section" value="people">
                 <input type="hidden" name="sub-section" value="department">
                 <?php
-                $department_table = new \WeDevs\ERP\HRM\Department_List_Table();
+                $department_table = new \WeDevs\ERP\HRM\DepartmentListTable();
                 $department_table->prepare_items();
                 $department_table->views();
                 $department_table->display();

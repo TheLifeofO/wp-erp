@@ -8,8 +8,48 @@ $transaction = erp_acct_get_transaction( $transaction_id );
 
 <head>
     <title><?php printf( '%s %s %s', esc_attr( $transaction['type'] ), esc_attr__( 'from', 'erp' ), esc_attr( $company->name ) ); ?></title>
-    <link rel="stylesheet" href="<?php echo esc_url( WPERP_ASSETS . '/css/invoice-front.css' ); ?>">
     <?php do_action( 'erp_readonly_invoice_header' ); ?>
+    <style>
+        pre {
+            background: #f4f4f4;
+            border: 1px solid #ddd;
+            border-left: 3px solid #f36d33;
+            color: #666;
+            page-break-inside: avoid;
+            font-family: monospace;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 1.6em;
+            max-width: 100%;
+            overflow: auto;
+            padding: 1em 1.5em;
+            display: block;
+            word-wrap: break-word;
+        }
+        blockquote {
+            background: #f9f9f9;
+            border: 1px solid #ddd;
+            border-left: 10px solid #ccc;
+            color: #666;
+            page-break-inside: avoid;
+            font-family: monospace;
+            font-size: 15px;
+            line-height: 1.6;
+            margin-bottom: 1.6em;
+            max-width: 100%;
+            overflow: auto;
+            padding: 1em 1.5em;
+            display: block;
+            word-wrap: break-word;
+            margin-left: 0;
+        }
+        ul {
+            list-style-type: decimal;
+        }
+        ul li {
+            list-style-type: circle;
+        }
+    </style>
 </head>
 
 <body>
@@ -123,7 +163,25 @@ $transaction = erp_acct_get_transaction( $transaction_id );
             </div>
 
             <div class="invoice-extra">
+                <?php if ( ! empty( $transaction['attachments'] ) && count( $transaction['attachments'] ) > 0 ): ?>
+                    <h4><?php esc_html_e( 'Attachments', 'erp' ); ?></h4>
 
+                    <?php foreach ( $transaction['attachments'] as $attachment ): ?>
+                        <a target="_blank" href="<?php echo esc_attr( $attachment ); ?>">
+                            <?php echo esc_attr( $attachment ); ?>
+                        </a>
+                        <br>
+                    <?php endforeach; ?>
+
+                <?php endif; ?>
+                <?php if ( ! empty( $transaction['particulars'] ) ): ?>
+                    <h4><?php esc_html_e( 'Particulars', 'erp' ); ?></h4>
+                    <?php echo esc_html( $transaction['particulars'] ); ?>
+                <?php endif; ?>
+                <?php if ( ! empty( $transaction['additional_notes'] ) ): ?>
+                    <h4><?php esc_html_e( 'Additional notes', 'erp' ); ?></h4>
+                    <?php echo wp_kses_post( $transaction['additional_notes'] ); ?>
+                <?php endif; ?>
             </div>
         </div>
 
@@ -138,5 +196,3 @@ $transaction = erp_acct_get_transaction( $transaction_id );
 </body>
 
 </html>
-
-
