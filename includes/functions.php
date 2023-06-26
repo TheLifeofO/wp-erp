@@ -1,4 +1,7 @@
 <?php
+
+use Doctrine\Inflector;
+
 /**
  * Processes all ERP actions sent via REQUEST by looking for the 'erp-action'
  * request and running do_action() to call the function
@@ -2192,7 +2195,7 @@ function erp_remove_other_select2_sources() {
  * @return string the word in plural form
  */
 function erp_pluralize( $word ) {
-    return \Doctrine\Common\Inflector\Inflector::pluralize( $word );
+    return Inflector\InflectorFactory::create()->build()->pluralize($word);
 }
 
 /**
